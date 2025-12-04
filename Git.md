@@ -2,12 +2,16 @@
 
 ```bash
 # 先获取 GitLab 账号密码，再生成 shh 公钥并粘贴到 GitLab 账号上，完成后获得 url
-# 配置并克隆到本地库
+# 配置信息
+git config --list                                      > 查看配置信息列表
 git config --global user.name 'JunYangQi'              > 配置用户名
 git config --global user.email 'JunYang194@Gmail.com'  > 配置邮箱
 ssh-keygen -t rsa -C 'JunYang194@Gmail.com'            > 生成 SHH 公钥
-git config --list                                      > 查看配置信息列表
+
+# 仓库管理
 git clone url                                          > 克隆到本地库
+git remote add origin url                              > 添加一个远程仓库
+git remote -v                                          > 列出当前仓库中已配置的远程仓库，并显示它们的URL
 
 # 拉取代码并推送到远程库
 git init                                               > 定义当前文件夹为 git 仓库
