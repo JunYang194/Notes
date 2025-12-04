@@ -20,7 +20,8 @@ git pull origin name                    > 拉取到本地库
 git push origin name                    > 推送到远程库
 
 # 查看代码命令
-git status                              > 查看本地库状态
+git status                              > 查看更改的结果
+git diff                                > 查看更改的地方
 git reflog                              > 查看历史记录
 git reset --hard 版本号                  > 版本穿梭
 git checkout 文件名                      > 穿梭到该文件上个版本
