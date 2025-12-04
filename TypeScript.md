@@ -1,9 +1,6 @@
 # TypeScript 配置
 
 ```bash
-# 安装TS
-npm install -g typescript
-
 # 生成配置文件tsconfig.json
 tsc --init
 ```

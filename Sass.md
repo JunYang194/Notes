@@ -1,10 +1,3 @@
-# 安装
-
-```shell
-npm install node-sass@4.14.1 --save-dev
-npm install sass-loader --save-dev
-```
-
 # 配置
 
 ```js
