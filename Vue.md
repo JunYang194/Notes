@@ -194,18 +194,6 @@ try{
 }
 ```
 
-# ElementUI
-
-```js
-# 安装
-npm istall --save element-ui
-
-# src -> main.js
-import ElementUI from 'element-ui'
-import 'element-ui/lib/theme-chalk/index.css'
-Vue.use(ElementUI)
-```
-
 # QS
 
 ```js

@@ -26,6 +26,10 @@ reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\Inpr
 
 # 关闭提高指针精确度
 控制面板 -> 鼠标 -> 指针选项
+
+# NVIDIA 控制面板
+通过预览调整图像设置：质量
+调整桌面尺寸和位置：全屏/GPU
 ```
 
 # 开发配置

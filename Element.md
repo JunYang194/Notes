@@ -1,4 +1,16 @@
-## el-dropdown 解决下拉框没有跟随移动的问题
+# 配置
+
+```shell
+# 安装
+npm istall --save element-ui
+
+# src -> main.js
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-chalk/index.css'
+Vue.use(ElementUI)
+```
+
+# el-dropdown 解决下拉框没有跟随移动的问题
 
 ```html
 <el-dropdown>
@@ -6,7 +18,7 @@
 </el-dropdown>
 ```
 
-## el-table 设置 fixed 和 expand 属性 padding 不一致的问题以及 expand 表格溢出问题
+# el-table 设置 fixed 和 expand 属性 padding 不一致的问题以及 expand 表格溢出问题
 
 ```css
 <style lang='scss' scoped>
