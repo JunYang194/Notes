@@ -12,10 +12,6 @@ KeyboardLayout Name String ABC  // 删除 com.apple.HIToolbox.plist 文件中的
 # 开启/关闭 SIP
 csrutil enable   // 开启
 csrutil disable  // 关闭
-
-# v2rayN
-Ctrl+A  // 全选
-Ctrl+R  // 执行
 ```
 
 # Windos 配置
@@ -27,6 +23,9 @@ reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\Inpr
 
 # 关闭软件开启窗口
 控制面板 -> 用户账户 -> 更改用户账户控制设置
+
+# 关闭提高指针精确度
+控制面板 -> 鼠标 -> 指针选项
 ```
 
 # 开发配置
