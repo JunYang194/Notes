@@ -30,6 +30,9 @@ reg add "HKCU\Software\Classes\CLSID\{86ca1aa0-34aa-4e8b-a509-50c905bae2a2}\Inpr
 # NVIDIA 控制面板
 通过预览调整图像设置：质量
 调整桌面尺寸和位置：全屏/GPU
+
+# Apple Music 解决“发生未知错误”的问题
+控制面板 -> internet选项 -> 高级 -> 勾选“使用 TLS 1.1”以及“使用 TLS 1.2”
 ```
 
 # 开发配置
