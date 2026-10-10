@@ -5,9 +5,10 @@
 sudo spctl --global-disable
 
 # 删除系统 ABC 输入法
-sudo open ~/Library/Preferences  // 终端输入
-com.apple.HIToolbox.plist       // plist 编辑器打开该文件
+csrutil disable                                             // 关闭 SIP
+sudo open ~/Library/Preferences/com.apple.HIToolbox.plist   // 终端输入
 AppleEnabledInputSources -> KeyboardLayout Name String ABC  // 删除 com.apple.HIToolbox.plist 文件中的这一行
+csrutil enable                                              // 启动 SIP
 ```
 
 # Windos 配置
