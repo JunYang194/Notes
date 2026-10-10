@@ -8,10 +8,6 @@ sudo spctl --global-disable
 sudo open ~/Library/Preferences  // 终端输入
 com.apple.HIToolbox.plist       // plist 编辑器打开该文件
 AppleEnabledInputSources -> KeyboardLayout Name String ABC  // 删除 com.apple.HIToolbox.plist 文件中的这一行
-
-# 开启/关闭 SIP
-csrutil enable   // 开启
-csrutil disable  // 关闭
 ```
 
 # Windos 配置
@@ -64,36 +60,5 @@ npm install --save vue-pdf
 ```shell
 npm install anywhere -g  > 安装静态服务器
 anywhere                > 运行项目
-```
-
-# Shell
-
-```shell
-# 部署项目
-1. 输入主机服务器地址
-  54.79.227.246                  # 246环境
-  13.210.179.247                 # 247环境
-  54.66.161.26                   # staging环境
-2. 输入用户名和密码
-  用户名：ubuntu
-  密码：密钥文件
-3. 切换到服务器项目目录
-  cd prod/zerocap-portal-admin/  # admin 端
-  cd prod/zerocap-front-end/     # portal 端
-  cd prod/zerocap-dma-ems/       # ems 端
-4. 拉取最新代码
-  git pull origin 分支名
-5. 打包代码到服务器
-  npm run build
-  
-# vim 修改服务器文件内容
-vim 文件名  # 进入对应文件名的 vim 模式
-i          # 进入光标模式
-Esc        # 退出光标模式
-:wq        # 强制保存退出
-
-# 图片存放地址
-https://img.defi.wiki/    # 测试环境
-https://img.zerocap.com/  # 生产环境
 ```
 
