@@ -48,7 +48,7 @@ npm install sass-loader@7.3.1 --save-dev
 # 安装 TypeScript
 npm install -g typescript
 
-# 安装 postcss-px2rem插件
+# 安装 postcss-px2rem 插件
 npm i postcss-px2rem --save -dev
 
 # 安装 pdf 插件
